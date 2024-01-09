@@ -18,29 +18,43 @@
         header {
             background-color: blue;
             padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
 
         h1 {
             margin-top: 50px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Navigationsseite der HTW Saar</h1>
+        <nav>
+            <ul>
+                <li>Gebäude A</li>
+                <li>Gebäude B</li>
+                <li>Gebäude C</li>
+                <li>Gebäude D</li>
+                <li>Gebäude E</li>
+               
+            </ul>
+        </nav>
     </header>
 
     <p>Willkommen zur Navigationsseite der HTW Saar. Hier finden Sie alle wichtigen Informationen, um sich am Campus Rothenbühl zu orientieren.</p>
-
-    <nav>
-        <ul>
-            <li>Gebäude A</li>
-            <li>Gebäude B</li>
-            <li>Gebäude C</li>
-            <li>Gebäude D</li>
-            <li>Gebäude E</li>
-            <li>Zwischengang</li>
-        </ul>
-    </nav>
 </body>
 </html>
