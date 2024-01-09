@@ -16,16 +16,14 @@
         }
 
         header {
-            background-color: red; /* Geändert in Rot */
-            padding: 5px; /* Verkleinert die Menüleiste */
-            position: fixed;
+            background-color: red;
+            padding: 5px;
             width: 100%;
-            top: 0;
             z-index: 1000;
         }
 
         h1 {
-            margin-top: 70px; /* Erhöht der Abstand nach oben */
+            margin-top: 50px;
         }
 
         nav ul {
@@ -33,24 +31,28 @@
             padding: 0;
             display: flex;
             justify-content: center;
-            margin-bottom: 20px; /* Hinzugefügt um den Abstand nach unten zu erhöhen */
+            margin-bottom: 20px;
         }
 
         nav li {
-            margin: 0 10px; /* Verkleinert den Abstand zwischen den Menüpunkten */
+            margin: 0 10px;
         }
 
         #building-images {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 50px; /* Erhöht der Abstand nach oben */
+            margin-top: 50px;
         }
 
         #building-images img {
             max-width: 100%;
             height: auto;
             margin-bottom: 10px;
+        }
+
+        main {
+            margin-top: 80px; /* Vergrößert den Abstand zwischen Header und Hauptinhalt */
         }
     </style>
 </head>
@@ -59,32 +61,35 @@
         <h1>Navigationsseite der HTW Saar</h1>
         <nav>
             <ul>
-    <li id="navi01"><a href="GebaeudeA.html">Gebäude A</a></li>
-    <li id="navi02"><a href="GebaeudeB.html">Gebäude B</a></li>
-    <li id="navi03"><a href="GebaeudeC.html">Gebäude C</a></li>
-    <li id="navi04"><a href="GebaeudeD.html">Gebäude D</a></li>
-    <li id="navi05"><a href="GebaeudeE.html">Gebäude E</a></li>
+                <li id="navi01"><a href="GebaeudeA.html">Gebäude A</a></li>
+                <li id="navi02"><a href="GebaeudeB.html">Gebäude B</a></li>
+                <li id="navi03"><a href="GebaeudeC.html">Gebäude C</a></li>
+                <li id="navi04"><a href="GebaeudeD.html">Gebäude D</a></li>
+                <li id="navi05"><a href="GebaeudeE.html">Gebäude E</a></li>
+                <li id="navi06"><a href="Zwischengang.html">Zwischengang</a></li>
             </ul>
         </nav>
     </header>
 
-    <p>Willkommen zur Navigationsseite der HTW Saar. Hier finden Sie alle wichtigen Informationen, um sich am Campus Rothenbühl zu orientieren.</p>
+    <main>
+        <p>Willkommen zur Navigationsseite der HTW Saar. Hier finden Sie alle wichtigen Informationen, um sich am Campus Rothenbühl zu orientieren.</p>
 
-    <div id="building-images">
-        <img src="gebaeudeA.jpg" alt="Bild">
-        <p>Gebäude A</p>
+        <div id="building-images">
+            <img src="gebaeudeA.jpg" alt="Gebäude A">
+            <p>Gebäude A</p>
 
-        <img src="gebaeudeB.jpg" alt="Bild">
-        <p>Gebäude B</p>
+            <img src="gebaeudeB.jpg" alt="Gebäude B">
+            <p>Gebäude B</p>
 
-        <img src="gebaeudeC.jpg" alt="Bild">
-        <p>Gebäude C</p>
+            <img src="gebaeudeC.jpg" alt="Gebäude C">
+            <p>Gebäude C</p>
 
-        <img src="gebaeudeD.jpg" alt="Bild">
-        <p>Gebäude D</p>
+            <img src="gebaeudeD.jpg" alt="Gebäude D">
+            <p>Gebäude D</p>
 
-        <img src="gebaeudeE.jpg" alt="Bild">
-        <p>Gebäude E</p>
-    </div>
+            <img src="gebaeudeE.jpg" alt="Gebäude E">
+            <p>Gebäude E</p>
+        </div>
+    </main>
 </body>
 </html>
