@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigationsseite der HTW Saar</title>
+    <style>
+        body {
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: red;
+            padding: 10px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        #building-images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 80px;
+        }
+
+        #building-images img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        main {
+            margin-top: 140px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Navigationsseite der HTW Saar</h1>
+        <nav>
+            <ul>
+                <li id="navi01"><a href="GebaeudeA.html">Gebäude A</a></li>
+                <li id="navi02"><a href="GebaeudeB.html">Gebäude B</a></li>
+                <li id="navi03"><a href="GebaeudeC.html">Gebäude C</a></li>
+                <li id="navi04"><a href="GebaeudeD.html">Gebäude D</a></li>
+                <li id="navi05"><a href="GebaeudeE.html">Gebäude E</a></li> 
+            </ul>
+        </nav>
+    </header>
